@@ -12,9 +12,9 @@ export default class App extends Component {
   
 
   componentWillReceiveProps(nextProps) {
-    if(nextProps.option !== this.props.option) {
+//     if(nextProps.option !== this.props.option) {
       this.refs.chart.reload();
-    }
+//     }
   }
 
   setNewOption(option) {
