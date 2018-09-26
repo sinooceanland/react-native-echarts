@@ -30,7 +30,7 @@ export default class App extends Component {
           injectedJavaScript = {renderChart(this.props)}
           style={{
             height: this.props.height || 400,
-            backgroundColor: this.props.backgroundColor || 'transparent'
+            backgroundColor: this.props.backgroundColor || 'white'
           }}
           scalesPageToFit={Platform.OS !== 'ios'}
           //source={require('./tpl.html')}
